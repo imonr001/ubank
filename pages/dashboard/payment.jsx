@@ -35,7 +35,7 @@ function payment() {
     <div className=" w-[500px] h-[500px]  sm:container lg:max-w-[3000px]   mx-auto  ">
       <div className=" w-full h-full flex mx-auto flex-col items-center justify-center  ">
         {/* <Selector data = {userData}  /> */}
-        <Selector2 data={userData} />
+        {/* <Selector2 data={userData} /> */}
       </div>
       </div>
     
