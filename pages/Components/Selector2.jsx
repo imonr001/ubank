@@ -14,7 +14,7 @@
 // //     value: op.balance,
 // //   })); -------------------------------
 
-//   function Selector2({ data }) {
+  function Selector2({ data }) {
 
 
 //   const [choice, setChoice] = useState([]);
@@ -107,6 +107,6 @@
 //       </div>
 //     </div>
 //   );
-// }
+}
 
-// export default Selector2;
+ export default Selector2;
