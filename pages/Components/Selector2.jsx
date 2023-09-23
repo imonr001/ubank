@@ -20,7 +20,7 @@ import Select from "react-select";
   const [choice, setChoice] = useState([]);
   const [choice2, setChoice2] = useState([]);
   const [amount, setAmount] = useState(null);
-  const balance = Object.values(choice);
+  let balance = Object.values(choice);
     const [data, setData] = useState(null);
     useEffect(() => {
       setData(data);
