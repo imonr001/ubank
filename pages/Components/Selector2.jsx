@@ -2,16 +2,29 @@ import supabase from "@/supabaseClient";
 import React, { useState } from "react";
 import Select from "react-select";
 
-function Selector2({ ...props }) {
-  const options = props.data.map((op) => ({
-    label: op.account,
-    value: op.balance,
-  }));
+// function Selector2({ ...props }) {
 
-  const options2 = props.data.map((op) => ({
-    label: op.account,
-    value: op.balance,
-  }));
+//   const options = props.data.map((op) => ({
+//     label: op.account,
+//     value: op.balance,
+//   }));
+
+//   const options2 = props.data.map((op) => ({
+//     label: op.account,
+//     value: op.balance,
+//   }));
+
+  function Selector2({ data }) {
+  
+    const options = data.map((op) => ({
+      label: op.account,
+      value: op.balance,
+    }));
+  
+    const options2 = data.map((op) => ({
+      label: op.account,
+      value: op.balance,
+    }));
 
   const [choice, setChoice] = useState([]);
   const [choice2, setChoice2] = useState([]);
